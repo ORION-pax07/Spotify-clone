@@ -71,6 +71,7 @@ nav ul li{
     flex-direction: column;
 }
 
+
 .icons{
     margin-top: 15px;
 }
@@ -123,4 +124,10 @@ nav ul li{
 .songInfo img{
     opacity: 0;
     transition: opacity  0.5s ease-in;
+}
+
+@media only screen and (max-width: 1100px){
+    body{
+        background-color:rgb(56, 185, 36) ;
+    }
 }
